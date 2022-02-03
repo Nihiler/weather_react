@@ -59,7 +59,7 @@ button{
 
 .weatherSearch{
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: rgb(16, 43, 51);
   /* border-radius: 200px; */
   /* margin: 0 auto; */
   width: 275px;
@@ -71,7 +71,7 @@ button{
   
   padding: 5px;
   height: 30px;
-  background-color: #fff;
+  background-color: rgb(16, 43, 51);
   border: none;
   margin-left: 20px;
   width: 250px;
