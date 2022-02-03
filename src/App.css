@@ -3,7 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Cyber', sans-serif;
   
+}
+
+/* h1{
+  font-family: 'Cyber', sans-serif;
+} */
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
 }
 
 .weatherBox{
@@ -36,7 +46,7 @@ margin-right: auto;
 }
 
 .infoContainer_right{
-  color: white;
+  color: rgb(180, 180, 180);
   float: left; 
   padding-left: 20px;
   
@@ -73,12 +83,13 @@ button{
   height: 30px;
   background-color: rgb(16, 43, 51);
   border: none;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   width: 250px;
+  font-family: 'Cyber', sans-serif;
 }
 
 .weatherSearch > input:focus{
   outline: none;
-
+  color: white;
 }
 
